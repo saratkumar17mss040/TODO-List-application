@@ -5,6 +5,8 @@
  - [x] Use localstorage to store lists data
  - [x] Should include proper meta description 
  - [x] Should be responisve
+ - [x] Write code only in one naming convention for consistency
+ - [x] Write general comments for each action of code 
  - [x] Create an input UI where the user can enter the list
  - [x] Display the todo list
  - [x] Create delete functionality to delete the list
