@@ -22,6 +22,7 @@
 - [ ] Make the project somewhat SEO good
 - [ ] Try to write CSS using BEM Methodology or Simply write clean CSS code
 - [ ] Write in SASS instead of CSS
+- [ ] Use JQuery instead of DOM manipulation using JS
 - [ ] Make it more accessible to all - eg: Screen readers
 - [ ] Create a email reminder notification functionality where in the given time to a
       specific lists the user will be notified via email or a browser in notification
