@@ -1,6 +1,6 @@
 # TODO'S
 
-- [x] Create a basic wireframe
+- [x] Create a basic wireframe using figma
 - [x] Use Bootstrap
 - [x] Use fontawesome
 - [x] Use Google fonts
