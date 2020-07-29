@@ -1,8 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
-    color:red;
+:root {
+    --mainFont :'Proza Libre', sans-serif;
+    --subFont : 'Open Sans', sans-serif;
 }
+
+select {
+    font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands', sans-serif;
+}
+
+option#download {
+font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands',sans-serif;
+}
+
+option#download::before {
+    content: '\f019';
+}
+
+
+
+
+
+
