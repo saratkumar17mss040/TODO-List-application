@@ -1,27 +1,116 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+	width: 100vw;
 }
 
 :root {
-    --mainFont :'Proza Libre', sans-serif;
-    --subFont : 'Open Sans', sans-serif;
+	--mainFont: 'Proza Libre', sans-serif;
+	--subFont: 'Open Sans', sans-serif;
+	--toDoColor: rgb(188, 229, 241);
+	--filterColor: rgb(209, 209, 235);
 }
 
-select {
-    font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands', sans-serif;
+/* select {
+	font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', sans-serif;
 }
 
 option#download {
-font-family: 'Font Awesome 5 Free','Font Awesome 5 Brands',sans-serif;
-}
+	font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', sans-serif;
+} */
 
 option#download::before {
-    content: '\f019';
+	content: '\f019';
 }
 
+#todo,
+#filter {
+	height: 4em;
+}
 
+::placeholder {
+	color: #000000 !important;
+	font-size: 1.3rem;
+}
 
+#todo {
+	background-color: var(--toDoColor);
+}
 
+#filter {
+	background-color: var(--filterColor);
+}
 
+@media only screen and (max-width: 766px) {
+	.reminderList {
+		margin-top: 50px !important;
+	}
+}
 
+.reminderListText {
+	font-size: 1.4rem;
+}
+
+.items {
+	font-size: 1.1rem;
+}
+
+.itemSubContainer {
+	height: 40px;
+}
+
+button i {
+	pointer-events: none;
+}
+
+svg {
+	pointer-events: none;
+}
+
+/* .spanTodo {
+	height: 15px!important;
+} */
+
+@media screen and (max-width: 360px) {
+	.fas,
+	.fa-trash,
+	.fa-clock,
+	.fa-edit,
+	.fa-check-circle {
+		font-size: 0.5em !important;
+	}
+
+	.btn,
+	.btn-primary,
+	.btn-secondary,
+	.btn-success,
+	.btn-danger.btn-sm {
+		width: 10px !important;
+		padding: none !important;
+	}
+}
+
+@media screen and (min-width: 350px) {
+	.fas,
+	.fa-trash,
+	.fa-clock,
+	.fa-edit,
+	.fa-check-circle {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.fas,
+	.fa-trash,
+	.fa-clock,
+	.fa-edit,
+	.fa-check-circle {
+		font-size: 1.4em;
+	}
+}
