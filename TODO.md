@@ -14,7 +14,7 @@
 - [x] Create delete functionality to delete the list
 - [x] Create edit functionality to edit the list
 - [x] Create filter functionality based on search result in the list
-- [x] Create export functionality to export the current list data to downloadable pdf
+- [ ] Create export functionality to export the current list data to downloadable pdf
 
 ## Stretch
 
